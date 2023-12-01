@@ -1,0 +1,103 @@
+
+body
+{
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+}
+
+header
+{
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+nav
+{
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+main
+{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    height: 500px;
+}
+
+#kep1
+{
+    height: 300px;
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+}
+
+h2
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#jobb
+{
+    padding: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+.fkover
+{
+    font-weight: bold;
+}
+
+a, a:active, a:hover
+{
+    color: rgb(2, 255, 150);
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 10;
+    padding: 0;
+}
+
+li
+{
+    display: inline;
+}
+
+.be
+{
+    text-indent: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        width: 100%;
+       }
+}
+
+p{
+    line-height: 8px;
+}
+
+footer
+{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}

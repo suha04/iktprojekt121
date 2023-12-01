@@ -1,0 +1,78 @@
+:root
+{
+    --bordersize: 1px;
+    --gapsize: 30px;
+    --maxwidth: 800px;
+    --paddingsize: 10px;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+
+header {
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+    padding-block: 10px;
+    border-bottom: 2px solid rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: auto;
+}
+
+
+p
+{
+
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.flex section {
+    flex: 1;
+}
+
+#profil img
+{
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-block: auto;
+}
